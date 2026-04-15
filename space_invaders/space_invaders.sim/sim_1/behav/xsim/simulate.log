@@ -1,0 +1,28 @@
+Time resolution is 1 ps
+========================================
+ Space Invaders VGA -- top integration testbench
+========================================
+  PASS  Enemy(0,0) at (36,48) =        CYAN (rgb=0ff)
+  PASS  Background (600,300) = BLACK (rgb=000)
+  PASS  Bunker0 (100,380) = GREEN (rgb=0F0)
+  PASS  Player (320,436) =       GREEN (rgb=0f0)
+
+--- VGA Sync Timing (640x480 @ 60Hz) ---
+  PASS  riod (px clocks) = 800 (0x320)
+  PASS  se width         = 96 (0x60)
+  PASS  iod (px clocks)  = 420000 (0x668a0)
+  PASS  se width         = 1600 (0x640)
+
+--- Active Window ---
+  PASS      min active x = 0 (0x0)
+  PASS      max active x = 639 (0x27f)
+  PASS      min active y = 0 (0x0)
+  PASS      max active y = 479 (0x1df)
+
+--- Pixel Spot Checks ---
+
+========================================
+ Results: 12 passed, 0 failed
+========================================
+ ALL TESTS PASSED
+$finish called at time : 33616140 ns : File "C:/Users/aboua/OneDrive/Desktop/projects/space_invaders/space_invaders.srcs/sim_1/new/tb_top.v" Line 272
