@@ -1,0 +1,22 @@
+timestamp=[2026-04-15 04:00:25], mode=WORKBENCH_START, duration=0:00:10.957, duration_ms=10957, data={}
+timestamp=[2026-04-15 04:00:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.018, duration_ms=18, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-04-15 04:00:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.245, duration_ms=245, data={}
+timestamp=[2026-04-15 04:00:50], mode=PLATFORM_CREATION, duration=0:00:07.098, duration_ms=7098, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2026-04-15 04:01:44], mode=PLATFORM_GENERATION, duration=0:00:10.332, duration_ms=10332, data={name=space_invaders_plat}
+timestamp=[2026-04-15 04:02:15], mode=APP_CREATION, duration=0:00:04.488, duration_ms=4488, data={name=space_invaders_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=space_invaders_plat, application_type=application}
+timestamp=[2026-04-15 04:08:44], mode=BUILD, duration=0:00:00.985, duration_ms=985, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:08:48], mode=BUILD, duration=0:00:03.921, duration_ms=3921, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:16:32], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:16:35], mode=BUILD, duration=0:00:03.562, duration_ms=3562, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:44:57], mode=PLATFORM_GENERATION, duration=0:00:08.125, duration_ms=8125, data={name=space_invaders_plat}
+timestamp=[2026-04-15 04:45:38], mode=BUILD, duration=0:00:00.900, duration_ms=900, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:45:46], mode=BUILD, duration=0:00:03.761, duration_ms=3761, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:46:39], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:46:43], mode=BUILD, duration=0:00:03.708, duration_ms=3708, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:51:57], mode=BUILD, duration=0:00:00.668, duration_ms=668, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 04:52:01], mode=BUILD, duration=0:00:03.773, duration_ms=3773, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 05:12:20], mode=BUILD, duration=0:00:01.931, duration_ms=1931, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 05:12:28], mode=BUILD, duration=0:00:07.650, duration_ms=7650, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 05:23:46], mode=PLATFORM_GENERATION, duration=0:00:06.142, duration_ms=6142, data={name=space_invaders_plat}
+timestamp=[2026-04-15 05:23:52], mode=BUILD, duration=0:00:00.899, duration_ms=899, data={name=space_invaders_app, configuration=Debug, clean_build=false}
+timestamp=[2026-04-15 05:24:00], mode=BUILD, duration=0:00:03.591, duration_ms=3591, data={name=space_invaders_app_system, configuration=Debug, clean_build=false}

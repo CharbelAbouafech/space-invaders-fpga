@@ -1,0 +1,289 @@
+
+*** Running vivado
+    with args -log space_invaders_bd_space_invaders_ip_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source space_invaders_bd_space_invaders_ip_0_0.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source space_invaders_bd_space_invaders_ip_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 444.367 ; gain = 164.621
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/aboua/OneDrive/Desktop/projects/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.cache/ip 
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: space_invaders_bd_space_invaders_ip_0_0
+Command: synth_design -top space_invaders_bd_space_invaders_ip_0_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23064
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1271.891 ; gain = 408.531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'space_invaders_bd_space_invaders_ip_0_0' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ip/space_invaders_bd_space_invaders_ip_0_0/synth/space_invaders_bd_space_invaders_ip_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'space_invaders_ip_v1_0' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0.v:4]
+INFO: [Synth 8-6157] synthesizing module 'space_invaders_ip_v1_0_S00_AXI' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-226] default block is never used [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0_S00_AXI.v:277]
+INFO: [Synth 8-226] default block is never used [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0_S00_AXI.v:514]
+INFO: [Synth 8-6155] done synthesizing module 'space_invaders_ip_v1_0_S00_AXI' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'top' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/top.v:5]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/vga_sync.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/vga_sync.v:8]
+INFO: [Synth 8-6157] synthesizing module 'pixel_gen' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/pixel_gen.v:8]
+INFO: [Synth 8-6157] synthesizing module 'sprite_rom' [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/sprite_rom.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sprite_rom' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/sprite_rom.v:23]
+INFO: [Synth 8-226] default block is never used [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/pixel_gen.v:165]
+INFO: [Synth 8-6155] done synthesizing module 'pixel_gen' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/pixel_gen.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/src/top.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'space_invaders_ip_v1_0' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ipshared/1dc8/hdl/space_invaders_ip_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'space_invaders_bd_space_invaders_ip_0_0' (0#1) [c:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.gen/sources_1/bd/space_invaders_bd/ip/space_invaders_bd_space_invaders_ip_0_0/synth/space_invaders_bd_space_invaders_ip_0_0.v:53]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1387.453 ; gain = 524.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1387.453 ; gain = 524.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1387.453 ; gain = 524.094
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1387.453 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1439.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1441.566 ; gain = 2.371
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 16    
+	   3 Input   13 Bit       Adders := 14    
+	   3 Input   12 Bit       Adders := 11    
+	   2 Input   11 Bit       Adders := 14    
+	   3 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 4     
+	   3 Input   10 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 1     
+	   3 Input    5 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 5     
+	   3 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 17    
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 16    
+	  16 Input   32 Bit        Muxes := 16    
+	 145 Input   16 Bit        Muxes := 6     
+	   2 Input   12 Bit        Muxes := 16    
+	   4 Input   12 Bit        Muxes := 1     
+	   7 Input   12 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	  56 Input    4 Bit        Muxes := 1     
+	  44 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 10    
+	  56 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 5     
+	  55 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module space_invaders_ip_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1441.566 ; gain = 578.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.234 ; gain = 583.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   135|
+|2     |LUT1   |     4|
+|3     |LUT2   |   293|
+|4     |LUT3   |    83|
+|5     |LUT4   |   363|
+|6     |LUT5   |   212|
+|7     |LUT6   |   644|
+|8     |MUXF7  |    74|
+|9     |MUXF8  |    33|
+|10    |FDPE   |     2|
+|11    |FDRE   |   579|
+|12    |FDSE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:26 . Memory (MB): peak = 1462.027 ; gain = 544.555
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1462.027 ; gain = 598.668
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1474.066 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 242 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1477.762 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a03bfd6b
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1477.762 ; gain = 995.789
+INFO: [Common 17-1381] The checkpoint 'C:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.runs/space_invaders_bd_space_invaders_ip_0_0_synth_1/space_invaders_bd_space_invaders_ip_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP space_invaders_bd_space_invaders_ip_0_0, cache-ID = 2c6ec941600451eb
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/aboua/OneDrive/Desktop/projects/space_invaders_soc/space_invaders_soc.runs/space_invaders_bd_space_invaders_ip_0_0_synth_1/space_invaders_bd_space_invaders_ip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file space_invaders_bd_space_invaders_ip_0_0_utilization_synth.rpt -pb space_invaders_bd_space_invaders_ip_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 15 04:37:16 2026...
